@@ -9,7 +9,7 @@ Developement on HZ started in 2020 and is the successor to my previous S8E frame
 
 
 # Before starting...
-Please check the wiki to get a better understanding of the new tile flag system present in HZ, and for additional questions you may have.
+Please check the wiki to get a better understanding of the new tile flag system present in HZ and for additional questions you may have.
 
 # Credits 
 - Original Framework: Damizean, Mercury
