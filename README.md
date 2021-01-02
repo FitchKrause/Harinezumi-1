@@ -3,7 +3,7 @@ Harinezumi (HZ short) is a on Sonic Dash based Framework for Game Maker 8.1 and 
 
 # Description
 Harinezumi is a fork of the Dash Engine (Dash, Revival, SRE, GMate)
-with the main goal of making it as accurate to the original games as possible and improving on the base framework to make it easy and bug-free.
+with the main goal of making it as accurate to the original games as possible while improving on the base framework to make it easy and bug-free.
 
 Developement on HZ started in 2020 and is the successor to my previous S8E framework, now themed around Sonic Mania.
 
