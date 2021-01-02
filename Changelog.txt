@@ -12,7 +12,6 @@ HZ v1.0P (Public Release) Changes:
 - Monitors no longer break while rolling on top of them.
 - Made the input alarm / locking on slopes more accurate to the original games.
 - Fixed a issue that caused the sfx volume to change to the bgm volume after the results appear.
-- Removed Palmtree effect from the test stage, which can potentially cause framerate issues on lower end PCs.
 - Added a new tile flag that prevents the character from grabbing a angle of 90 / 270 after hitting a edge. (Only occurs on some slope types)
 - Shield usability flag now disables once you hit a spring.
 - Character no longer checks for gamepad input every begin step. (Added a joystick_exist check)
