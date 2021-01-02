@@ -1,0 +1,21 @@
+HZ v1.0P (Public Release) Changes:
+-------------------------------
+
+- Added Tails and Knuckles.
+- Converted Audio system to only use the GMS audio functions instead of a extension. *GMS
+- Replaced gamepad system with the one from the GM8 build. *GMS
+- Fixed vertical sync. (Got rid of it enabling alt sync instead of regular sync) *GMS
+- Removed Discord functions. *GMS
+- State reverts back to default when in the spring state and the vertical speed is equal or higher than 0
+- Removed "current_time div ???" for various object animations, now they use "global.object_time div ???"
+- Fixed shield depth (and gave them blend_mode(bm_add), are you happy now pvic???)
+- Monitors no longer break while rolling on top of them.
+- Made the input alarm / locking on slopes more accurate to the original games.
+- Fixed a issue that caused the sfx volume to change to the bgm volume after the results appear.
+- Removed Palmtree effect from the test stage, which can potentially cause framerate issues on lower end PCs.
+- Added a new tile flag that prevents the character from grabbing a angle of 90 / 270 after hitting a edge. (Only occurs on some slope types)
+- Shield usability flag now disables once you hit a spring.
+
+*GMS > Game Maker Studio only fix/change.
+ 
+-------------------------------
