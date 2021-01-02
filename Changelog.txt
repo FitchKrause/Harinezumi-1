@@ -15,6 +15,8 @@ HZ v1.0P (Public Release) Changes:
 - Removed Palmtree effect from the test stage, which can potentially cause framerate issues on lower end PCs.
 - Added a new tile flag that prevents the character from grabbing a angle of 90 / 270 after hitting a edge. (Only occurs on some slope types)
 - Shield usability flag now disables once you hit a spring.
+- Character no longer checks for gamepad input every begin step. (Added a joystick_exist check)
+  Preventing framerate drops.
 
 *GMS > Game Maker Studio only fix/change.
  
