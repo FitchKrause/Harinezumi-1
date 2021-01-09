@@ -1,5 +1,5 @@
 HZ v1.0P (Public Release) Changes:
--------------------------------
+----------------------------------
 
 # ADDED:
 - Added Tails and Knuckles.
