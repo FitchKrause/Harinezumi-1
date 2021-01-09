@@ -1,21 +1,50 @@
 HZ v1.0P (Public Release) Changes:
 -------------------------------
 
+# ADDED:
 - Added Tails and Knuckles.
+- Added a new tile flag that prevents the character from grabbing a angle of 90 / 270 after hitting a edge. (Only occurs on some slope types)
+- Added diagonal springs.
+- Added HUD Display option.
+- Added Time Over.
+
+# FIXED:
+- Fixed vertical sync. (Got rid of it enabling alt sync instead of regular sync) *GMS
+- Fixed shield depth (and gave them blend_mode(bm_add), are you happy now pvic???)
+- Fixed a issue that caused the sfx volume to change to the bgm volume after the results appear.
+- Fixed a issue with Miles flying on ceilings that was present in S8E and Flicky.
+- Fixed a bug that would cause Knuckles to stick to springs.
+- Fixed a animation bug that would cause Knuckles to "glide" on ground when he switches his state back to the default state.
+- Fixed a issue that would cause the character to stay in their skidding state on slopes.
+- Fixed a bug that would prevent the character from changing their direction when no input is given and the turn animation was playing.
+- Fixed character handling objects like checkpoints and platforms while death.
+- Fixed Knuckles being able to grab onto slopes or loops.
+- Fixed a sound issue with the spindash charge and skidding.
+- Fixed a sprite alignment issue with Knuckles ledge climb.
+- Fixed a bug that would prevent Knuckles from climbing down to the ground.
+- Fixed a bug that would cause Knuckles to be able to glide when leaving a ramp.
+- Fixed a bug that would cause Knuckles glide speed to change to 0 when gliding into the view boundaries.
+- Fixed a code in the v-sync settings code.
+
+# CHANGED:
 - Converted Audio system to only use the GMS audio functions instead of a extension. *GMS
 - Replaced gamepad system with the one from the GM8 build. *GMS
-- Fixed vertical sync. (Got rid of it enabling alt sync instead of regular sync) *GMS
 - Removed Discord functions. *GMS
 - State reverts back to default when in the spring state and the vertical speed is equal or higher than 0
 - Removed "current_time div ???" for various object animations, now they use "global.object_time div ???"
-- Fixed shield depth (and gave them blend_mode(bm_add), are you happy now pvic???)
 - Monitors no longer break while rolling on top of them.
 - Made the input alarm / locking on slopes more accurate to the original games.
-- Fixed a issue that caused the sfx volume to change to the bgm volume after the results appear.
-- Added a new tile flag that prevents the character from grabbing a angle of 90 / 270 after hitting a edge. (Only occurs on some slope types)
 - Shield usability flag now disables once you hit a spring.
-- Character no longer checks for gamepad input every begin step. (Added a joystick_exist check)
-  Preventing framerate drops.
+- Improved Sliding code, Knuckles can now slide at certain slope angles unlike S8E.
+- Improved Climbing code to prevent Knuckles from climbing up weird positions.
+- Improved Climbing code, Knuckles will no longer awkwardly jump positions while climbing on a ledge, camera also now properly moves.
+- Improved Gliding code, Knuckles will no longer trigger a roll when gliding into a slope/loop, state will now revert to the default state.
+- Characters will no longer jump at an angle when they were previously grounded on a bridge. 
+- Character invincibility timer now sets when the state changes from cs_hurt to any other state.
+- Miles tail now changes direction depending on the x_speed if moving and on ground.
+- Knuckles can no longer cause monitors to bounce when climbing below them.
+- State now switches immediately to roll while hitting a tunnel sensor.
+- Up / Down Springs now properly work when moving on walls. (Angle is 90 / 270)
 
 *GMS > Game Maker Studio only fix/change.
  
