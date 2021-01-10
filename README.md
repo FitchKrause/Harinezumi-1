@@ -23,20 +23,29 @@ Please check the wiki to get a better understanding of the new tile flag system 
 - Original Music by: RB (RamiroBandicoot)
 - Artwork: Bryce, SEGA, MrLevRocks
 - Beta Testers:
-  - BriceTAS
-  - Bryce
-  - Illias3000
-  - Lilac
-  - Michael Staple
-  - MrLevRocks
-  - NapTime / XZoneAct1
-  - Neweegee
-  - Nihil
-  - Noah Copeland
-  - Polar-Star
-  - PorteWeeker
-  - Pvic
-  - Savordez
-  - SoniKast
-  - Trinitronity
+ - BlueSpeedster
+ - BriceTAS
+ - Bryce
+ - Dashboy (Tuna)
+ - Dark04
+ - Illias3000
+ - Lilac
+ - Loser
+ - Michael Staple
+ - MrLevRocks
+ - NapTime / XZoneAct1
+ - Neweegee
+ - Nihil
+ - Noah Copeland
+ - Moonchild6297
+ - Polar-Star
+ - PorteWeeker
+ - Pvic
+ - Savordez
+ - SoniKast
+ - Spitfya
+ - TheEpicDude
+ - Trinitronity
+ - Xiyarent
+ - Everyone else in the HZ server.
 
