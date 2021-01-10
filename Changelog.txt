@@ -7,8 +7,12 @@ HZ v1.0P (Public Release) Changes:
 - Added diagonal springs.
 - Added HUD Display option.
 - Added Time Over.
+- Added a option to fully reset all configuration files. Simply press F8. *GMS
+  (For GM8 users, simply delete the hzc files found in the data folder, GMS users can also find this folder in %appdata/local/gamename%)
 
 # FIXED:
+- Fixed a issue that would cause the character to not rebounce off objects properly when leaving a ramp.
+- Fixed a loop when no gamepad was connected, which caused framerate issues.
 - Fixed vertical sync. (Got rid of it enabling alt sync instead of regular sync) *GMS
 - Fixed shield depth (and gave them blend_mode(bm_add), are you happy now pvic???)
 - Fixed a issue that caused the sfx volume to change to the bgm volume after the results appear.
@@ -24,7 +28,10 @@ HZ v1.0P (Public Release) Changes:
 - Fixed a bug that would prevent Knuckles from climbing down to the ground.
 - Fixed a bug that would cause Knuckles to be able to glide when leaving a ramp.
 - Fixed a bug that would cause Knuckles glide speed to change to 0 when gliding into the view boundaries.
-- Fixed a code in the v-sync settings code.
+- Fixed the v-sync settings code which checked for the current fullscreen setting instead of the v-sync setting.
+- Fixed the mask of the sign post object.
+- Fixed a bug that would prevent the sign post sparkles to spawn.
+- Fixed Ring sound pan. *GMS
 
 # CHANGED:
 - Converted Audio system to only use the GMS audio functions instead of a extension. *GMS
@@ -43,8 +50,9 @@ HZ v1.0P (Public Release) Changes:
 - Character invincibility timer now sets when the state changes from cs_hurt to any other state.
 - Miles tail now changes direction depending on the x_speed if moving and on ground.
 - Knuckles can no longer cause monitors to bounce when climbing below them.
-- State now switches immediately to roll while hitting a tunnel sensor.
+- State now switches immediately to roll while hitting a tunnel sensor even when not on ground.
 - Up / Down Springs now properly work when moving on walls. (Angle is 90 / 270)
+- Sign Post can now be triggered if you jump over it.
 
 *GMS > Game Maker Studio only fix/change.
  
