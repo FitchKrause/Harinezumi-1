@@ -54,6 +54,5 @@ HZ v1.0P (Public Release) Changes:
 - Up / Down Springs now properly work when moving on walls. (Angle is 90 / 270)
 - Sign Post can now be triggered if you jump over it.
 
+----------------------------------
 *GMS > Game Maker Studio only fix/change.
- 
--------------------------------
